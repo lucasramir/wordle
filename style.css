@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-display: 15px;
+    border: 1px black;
+    background-color: rgb(140, 240, 190);
+    padding: 5px;
+    border: solid black;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  li {
+    flex-direction: row;
+    border: black;
+    text-align: start;
+    margin-top: 10px;
+  }
+  
+  #guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+  }
+  
+  #guess-button {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: rgb(189, 26, 26);
+    border-radius: 10px;
+    border-color: rgb(203, 46, 46);
+  }
+  
+  #guess-button:hover {
+    background-color: #56f8f8;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  .letter {
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    min-width: 20px;
+    text-align: center;
+    display: inline-block
+  }
+  
+  .row
+  #grid {
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+  }
+  
+  input {
+    margin: 30px;
+  }
+  
+  .contenedorLista {
+    display: flex;
+    border: 1px black;
+    background-color: khaki;
+    padding: 10px;
+    border: solid black;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  
+  .azul {
+    border: 3px black;
+    font-size: 30px;
+    flex-direction: row;
+    text-align: center;
+    margin: 15px; 
+    color: #3759f3;
+  }
+  
+  .rojo {
+    border: 3px black;
+    font-size: 30px;
+    flex-direction: row;
+    text-align: center;
+    margin: 15px; 
+    color: #b85151;
+  }
+  
+  .gris {
+    border: 10px black;
+    font-size: 30px;
+    flex-direction: row;
+    text-align: center;
+    margin: 15px; 
+    color: #a4aec4;
+  }
